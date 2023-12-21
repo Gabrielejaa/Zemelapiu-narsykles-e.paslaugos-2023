@@ -1,0 +1,55 @@
+body{
+    background-color: #edede9;
+    color: #5e503f;
+    font-family: "Times New Roman", Times, serif; 
+}
+
+#svetaine {
+    height: 100vh;
+    padding: 0;
+}
+.navbar{
+    padding: 0;
+    width: 100%;
+}
+
+#navigacinis{
+    background-color: #edede9;
+    height: 7vh;
+    padding: 0;
+    width: 90%;
+}
+  
+#pranesimas{
+    height: 5vh;
+    padding: 0;
+}
+
+#map{
+    height: 88vh;
+    padding: 0;
+}
+
+.basemap-gallery img {
+    filter: grayscale();
+}
+  
+.basemap-gallery img:hover {
+    filter: none;
+}
+
+.basemap-gallery{
+    align-items: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+#coordinates{
+    background: gray;
+    position: absolute;
+    bottom: 20%;
+    display: block;
+}
